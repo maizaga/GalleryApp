@@ -39,17 +39,17 @@ class MainViewController: UICollectionViewController {
         }
     }
     
-//    // MARK: - Navigation
-//
-//    // In a storyboard-based application, you will often want to do a little preparation before navigation
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if let cell = sender as? UICollectionViewCell,
-//            let indexPath = self.collectionView.indexPath(for: cell) {
-//
-//            let vc = segue.destination as! DetailViewController
-//            vc.item = items[indexPath.row]
-//        }
-//    }
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let cell = sender as? UICollectionViewCell,
+            let indexPath = self.collectionView.indexPath(for: cell) {
+
+            let vc = segue.destination as! DetailViewController
+            vc.item = items[indexPath.row]
+        }
+    }
 }
 
 extension MainViewController {

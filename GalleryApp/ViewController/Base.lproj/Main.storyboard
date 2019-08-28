@@ -58,12 +58,12 @@
         <!--Photo-->
         <scene sceneID="iKZ-eg-c11">
             <objects>
-                <viewController id="riR-kN-bFo" sceneMemberID="viewController">
+                <viewController id="riR-kN-bFo" customClass="DetailViewController" customModule="GalleryApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mWi-oo-5U8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rfl-hO-OZz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rfl-hO-OZz" customClass="RemoteImageView" customModule="GalleryApp" customModuleProvider="target">
                                 <rect key="frame" x="20" y="198" width="374" height="500"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="HGT-Rx-Jqj"/>
@@ -95,6 +95,10 @@
                         <viewLayoutGuide key="safeArea" id="fzf-SJ-w74"/>
                     </view>
                     <navigationItem key="navigationItem" title="Photo" id="2kI-uh-hPJ"/>
+                    <connections>
+                        <outlet property="imageLabel" destination="6xr-yM-UF5" id="8Dj-5x-6Z0"/>
+                        <outlet property="imageView" destination="Rfl-hO-OZz" id="z29-mH-ykF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qdv-1V-GDJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

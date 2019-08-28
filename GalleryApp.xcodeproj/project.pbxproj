@@ -21,6 +21,7 @@
 		AC2B963B2313A28200E606BA /* NetworkIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B963A2313A28200E606BA /* NetworkIndicator.swift */; };
 		AC2B963D2313A45300E606BA /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B963C2313A45300E606BA /* MainCollectionViewCell.swift */; };
 		AC2B963F2313A48700E606BA /* RemoteImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B963E2313A48700E606BA /* RemoteImageView.swift */; };
+		AC2B9641231625ED00E606BA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B9640231625ED00E606BA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		AC2B963A2313A28200E606BA /* NetworkIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkIndicator.swift; sourceTree = "<group>"; };
 		AC2B963C2313A45300E606BA /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		AC2B963E2313A48700E606BA /* RemoteImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImageView.swift; sourceTree = "<group>"; };
+		AC2B9640231625ED00E606BA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BC5AA228970CDA816107E68E /* Pods_GalleryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GalleryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 			children = (
 				AC2B961C2313981D00E606BA /* MainViewController.swift */,
 				AC2B961E2313981D00E606BA /* Main.storyboard */,
+				AC2B9640231625ED00E606BA /* DetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC2B9641231625ED00E606BA /* DetailViewController.swift in Sources */,
 				AC2B963B2313A28200E606BA /* NetworkIndicator.swift in Sources */,
 				AC2B963D2313A45300E606BA /* MainCollectionViewCell.swift in Sources */,
 				AC2B961D2313981D00E606BA /* MainViewController.swift in Sources */,
